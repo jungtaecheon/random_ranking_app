@@ -1,0 +1,164 @@
+.init{
+    background-Color:black;
+}
+.init2{
+    background-Color:black;
+}
+.init119{
+    background-Color:black;
+}
+.init118{
+    background-Color:black;
+}
+.selected{
+    background-Color:white;
+}
+
+body{
+    padding-top: 5px; /* 余白 */
+    font-family: 'Courier', monospace; /* フォント */
+    text-align: center; /* 文字の配置 */
+    background: black;
+    font-weight: 600;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+th{
+  font-size: 30px;
+  color: yellow;
+}
+
+td{
+  font-size: 22px;
+  color: white;
+}
+
+
+/*
+table,tr,td,th{
+    border: 2px #ff0000 solid;
+}
+*/
+
+
+/* 丸み */
+.btn-right-radius {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: black;
+  background: #ECECEC;
+  border-radius: 0 15px 0 15px;
+  transition: .4s;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier', monospace; /* フォント */
+  font-size: 20px
+}
+.btn-right-radius:hover {
+/*  background: #636363;
+*/  background: #FFFF66;
+}
+.btn-right-radius-disable {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #AAAAAA;
+  background: #ECECEC;
+  transition: .4s;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier', monospace; /* フォント */
+  font-size: 20px
+}
+
+/* circle ボタン */
+.btn-circle-3d {
+  display: inline-block;
+  text-decoration: none;
+  background: #FFFF00;
+  color: black;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier', monospace; /* フォント */
+  overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+  border-bottom: solid 3px;
+  transition: .4s;
+}
+.btn-circle-3d-small {
+  display: inline-block;
+  text-decoration: none;
+  background: #FFFF00;
+  color: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier', monospace; /* フォント */
+  overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+  border-bottom: solid 3px;
+  transition: .4s;
+}
+.btn-circle-3d-small-disable {
+  display: inline-block;
+  text-decoration: none;
+  background: gray;
+  color: darkslategrey;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier', monospace; /* フォント */
+  overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+  border-bottom: solid 3px;
+  transition: .4s;
+}
+/* circle ボタン disable */
+.btn-circle-3d-disable {
+  display: inline-block;
+  text-decoration: none;
+  background: gray;
+  color: darkslategrey;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier', monospace; /* フォント */
+  overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+  border-bottom: solid 3px;
+  transition: .4s;
+}
+.btn-circle-3d:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  border-bottom: none;
+}
+.btn-circle-3d-disable:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  border-bottom: none;
+}
